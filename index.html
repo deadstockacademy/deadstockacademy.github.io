@@ -10,16 +10,21 @@
     div {
   width: 400px;
   height: 100px;
-  background: white;
+  background: black;
   position: relative;
-  animation: mymove 5s infinite;
+  animation: textmove 10s infinite;
 }
 
-@keyframes mymove {
-  0%   {top: 0px;}
-  25%  {top: 200px;}
-  75%  {top: 400px}
-  100% {top: 00px;}
+@keyframes textmove {
+  0%   {top: 0px; left: 400px;background-color:black}
+  12%   {top: 300px; left: 200px; background-color:blue}
+  24%  {top: 0px; left: 0px; background-color:white}
+  36%  {top: 300px; left: 200px; background-color:black}
+  48%  {top: 600px; left: 0px; background-color:white}
+  60% {top: 300px; left: 200px; background-color:blue}
+  72%   {top: 600px; left: 400px; background-color:black}
+  90%  {top: 300px; left: 200px; background-color:white}
+  100%  {top: 0px; left: 400px; background-color:black}
 }
   </style>
   <style type="text/css">
@@ -36,3 +41,4 @@
   </div>
 </body>
 </html>
+
