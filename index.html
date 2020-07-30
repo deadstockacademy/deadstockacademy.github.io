@@ -6,10 +6,6 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1894.4">
   <style>
-  
-
-html, body {min-height: 100%;}
-body {background-size: cover;}
 
   .bg {
   /* The image used */
@@ -25,6 +21,9 @@ body {background-size: cover;}
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
   
   .topright {
@@ -47,11 +46,12 @@ body {background-size: cover;}
   
  .bottomright {
   position:absolute;
-  width: 50%;
+  width: 100%;
   bottom:100px;
   right:50px;
   padding: 0px;
   text-align:center;
+  border: solid 3px yellow;
 }
   
   .bounce {
