@@ -44,21 +44,21 @@
   text-align:center;
 }
   
- .bottomright {
-  position:absolute;
-  width: 80%;
-  bottom:200px;
-  right:0px;
-  padding: 0px;
-  text-align:center;
-  border: solid 3px yellow;
+ .unused {
+  Width:650px;
+  Height:500px;
+  Text-align:center;
+  Margin:0 auto;
+  border: solid 3px red
 }
   
   .bounce {
-      position:relative;
-      height:100px;
-      width:1000px;
+      Position:relative;
+      bottom:0px;
+      height:200px;
+      width:750px;
       border-radius:25px;
+      Display: inline-block;
       -webkit-animation:bounce 1s infinite;
     }
     
@@ -68,14 +68,22 @@
       50%      { bottom:20px; }
       100%     {bottom:0;}
     }
+
+  .deadstockcontainer {
+    width: 100%;
+    text-align: left;
+    position: absolute;
+    bottom: 10%;
+    Left:10%;
+}
     
     #grad1 {
       background-image: linear-gradient(-90deg, rgba(236, 237, 238, 0.92),rgba(143, 203, 249, 0.92));
     }
     
-    p.p1 {margin: 00.0px 0.0px 0.0px 0.0px; font-family: "Impact", Charcoal, sans-serif; font-size: 40.0px; font-style: normal; color: gainsboro; -webkit-text-stroke: #FFFFFF; text-align: center;}
+    p.p1 {margin: 00.0px 0.0px 0.0px 0.0px; font-family: "Helvetica", sans-serif; font-size: 40.0px; font-style: normal; color: gainsboro; -webkit-text-stroke: #FFFFFF; text-align: center;}
     span.s1 {font-kerning: 5px}
-    p.p2 {margin: 05.0px 0.0px 0.0px 0.0px; font-family: "Impact", Charcoal, sans-serif; font-size: 70.0px; font-style: normal; color: white; -webkit-text-stroke: #f5c056; text-align: center;letter-spacing: 2px;}
+    p.p2 {margin: 05.0px 0.0px 0.0px 0.0px; font-family: "Helvetica", sans-serif; font-size: 70.0px; font-style: normal; color: white; -webkit-text-stroke: #f5c056; text-align: center;letter-spacing: 1px;}
     span.s1 {font-kerning: none}
 
 a:link, a:visited {
@@ -113,12 +121,15 @@ a:hover, a:active {
 <a href="https://deadstock.substack.com/subscribe?">Subscribe</a>
 </div>
 
-<div class="bottomright">
+
+
+  <div class="deadstockcontainer">
   <div class="bounce">
     <p class="p2"><span class="s1">Deadstock Academy</span></p>
     <p class="p1"><span class="s1">Coming soon</span></p>
   </div>
-</div>
+  </div>
+
 </body>
 </html>
 
