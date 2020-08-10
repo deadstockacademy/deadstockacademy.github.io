@@ -1,0 +1,275 @@
+html, body {
+  margin: 0;
+  min-width: 100%;
+  min-height: 100%
+}
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header , hgroup , iframe{
+  display: block;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block; /* remove extra space below image */
+}
+
+
+
+#grad1 {
+  background-color: #cccccc;
+  background-image: radial-gradient(#c2e8f1, #272f3bff);
+}
+
+#section_header {
+  position: absolute;
+  height: 180px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 25px 45px rgba(0,0,0,0.30), 0 15px 15px rgba(0,0,0,0.22);
+}
+#headercolorspan {
+  position: -webkit-sticky;
+  position: sticky;
+  top:0px;
+  background-color: #c2e8f1;
+  width: 100%;
+  height: 180px;
+  border-bottom-color: black;
+  border-bottom: solid 0px black;
+}
+#bannercontainer {
+  top: 0px;
+  min-width: 1100px;
+  min-height: 10px;
+  height: 180px;
+}
+#deadstocklogocontainer {
+  position: absolute;
+  top:25px;
+  left: 40px;
+  min-width: inherit;
+  height: 120px ;
+  overflow: hidden;
+}
+
+
+#section_main {
+  position: absolute;
+  top:180px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: auto;
+  background-color: transparent;
+  width: 100%;
+}
+
+#section_posts {
+  background-color: white;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#section_footer {
+}
+
+#socialcontainer {
+  position: fixed;
+  top:50%;
+  transform: translate(0%,-50%);
+  left:0px;
+  width: 40px;
+  padding:10px
+
+}
+
+
+.linksocial {
+  margin-top: 5px;
+  width: inherit;
+  background-color: transparent;
+}
+
+.linksocial:hover {
+  background-color: #c2e8f1;
+}
+
+.substacksub{
+  position: absolute;
+    bottom: -0.5em;
+    top: 2em;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    overflow: inherit;
+}
+
+.substacksubcontainer{
+  position: absolute;
+  height: 70px;
+  width:300px;
+  right: 0px;
+  bottom:35px;
+  background-color: transparent;
+}
+
+#copyrightcontainer {
+  position: absolute;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  font-size: 12px;
+  border-top: solid 1px;
+  border-color: rgba(0, 0, 0, .1);
+}
+
+
+
+.card{
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    display:flex;
+    margin-bottom: 15px;
+    box-shadow: 2.5px 2.5px 10px rgba(0,0,0,0.30), 5px 5px 10px rgba(0,0,0,0.22);
+
+}
+
+.footer_content{
+    margin: auto;
+    position: relative;
+    display:flex;
+}
+
+.footer_copyright{
+    min-width: 100%;
+    margin: auto;
+    position: relative;
+    display:flex;
+}
+
+.black_container{
+   height: inherit;
+   background: #333;
+   vertical-align: top;
+   padding: 3%;
+   font-family: 'Nunito', sans-serif;
+}
+
+.aboutus{
+   height: inherit;
+   background: #333;
+   vertical-align: top;
+   padding: 3%;
+   font-family: 'Nunito', sans-serif;
+}
+
+.copyright_blackbox{
+   height: inherit;
+   width: 100%;
+   background: #333;
+   vertical-align: top;
+   padding-left: 3%;
+   padding-right: 3%;
+   padding-top: 0px;
+   padding-bottom: 15px;
+   font-family: 'Nunito', sans-serif;
+}
+
+.content_container{
+    padding: 3%;
+    flex-grow:100;
+    border: solid 1px black;
+}
+
+.newslettersubscribe{
+    padding: 3%;
+    flex-grow:100;
+}
+
+.small_bar{
+    padding:1px;
+    width: 100%;
+    margin: 0 auto;
+    background: #e4e4e4;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.posttitle_bar{
+    padding:0.5px;
+    width: 100%;
+    margin: 0 auto;
+    background: #e4e4e4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.splitter_bar{
+    padding:0.5px;
+    width: 100%;
+    margin: 0 auto;
+    background: black;
+    opacity: 0.4;
+    margin-top: 0px;
+}
+
+.name{
+    color:#fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin:30px auto 5px auto;
+    text-align: center;
+    font-weight: 800;
+}
+
+.designation{
+    font-size: 10px;
+    margin: 0 auto;
+}
+
+
+.qrcode_container{
+}
+
+.qr_container{
+    overflow: auto;
+    width: 100%;
+}
+
+.qr_text{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.qr_text>li{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    color: #9a9a9a;
+}
+
+
+
+
+
+.qr_code{
+    display: inline-block;
+    height: inherit;
+    border: 1px solid #e4e4e4;
+    padding: 5px;
+}
