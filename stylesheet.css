@@ -175,6 +175,8 @@ img{
    vertical-align: top;
    padding: 3%;
    font-family: 'Nunito', sans-serif;
+   width: 34%;
+   min-width: 33%;
 }
 
 .copyright_blackbox{
@@ -195,9 +197,10 @@ img{
     border: solid 1px black;
 }
 
-.newslettersubscribe{
-    padding: 3%;
+.contactform{
+    padding: 2.5%;
     flex-grow:100;
+
 }
 
 .small_bar{
@@ -237,6 +240,15 @@ img{
     font-weight: 800;
 }
 
+.name_sub{
+    color:#333;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: left;
+    font-weight: 800;
+}
+
 .designation{
     font-size: 10px;
     margin: 0 auto;
@@ -244,6 +256,7 @@ img{
 
 
 .qrcode_container{
+  border: 3px solid black;
 }
 
 .qr_container{
@@ -254,6 +267,7 @@ img{
 .qr_text{
     display: inline-block;
     list-style-type: none;
+    border: 1px solid red;
 }
 
 .qr_text>li{
@@ -273,3 +287,70 @@ img{
     border: 1px solid #e4e4e4;
     padding: 5px;
 }
+
+
+/* Contact us form */
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+
+/* Centre the page */
+.contactusbody {
+    display:block;
+    margin:0 auto;
+
+}
+
+/* Centre the form within the page */
+form {
+    margin: 0 auto;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:100%;
+	height:30px;
+	background:white;
+  border: solid 1px transparent;
+	padding:5px;
+	margin-top:3px;
+	font-size:10px;
+	color:#3a3a3a;
+  border-radius: 3px;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+}
+
+textarea {
+	height:100px;
+  margin-bottom: 15px;
+
+}
+
+input:focus, textarea:focus {
+  background-color: #f2f2f2;
+  color: black;
+  outline: thin;
+}
+
+.contactformmessage {
+  resize: vertical;
+  min-height: 100px;
+  max-height: 300px;
+}
+
+#submit {
+    margin-left: 50%;
+    transform: translate(-50%,0%);
+    width: 25%;
+    cursor:pointer;
+}
+
+	#submit:hover {
+      background-color: #c2e8f1;
+	    opacity:.9;
+	}
